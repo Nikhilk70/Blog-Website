@@ -1,0 +1,24 @@
+{% extends "blog/base.html" %}
+{% block content %}
+<style>
+    h1{
+        text-decoration: underline;
+    }
+    b{
+        text-decoration: underline;
+    }
+</style>
+<h1>About the Blog Page</h1>
+<br>
+<h5>Hi <b>{{ user}}</b>!</h5>
+<h5>Welcome to our Blog Page, a platform where authors share insightful, engaging, and informative posts across various topics. This blog is designed to foster a community of discussion and learning. Here’s how it works.</h5>
+<br>
+<ul>
+    <li><b>Authors:</b> Our team of skilled authors regularly creates and publishes thought-provoking articles. Each post aims to spark curiosity and encourage readers to explore new ideas.</li>
+    <li><b>Users:</b> As a reader, you can interact with these posts by sharing your thoughts in the comment section. We value your voice and invite you to join the conversation by adding meaningful comments and engaging with other readers.</li>
+</ul>
+<p>Dive in, share your perspectives, and be part of our growing community!</p>
+<p>Thanks for checking it out!</p>
+
+<p>Dear : <b>{{ user}}</b></p>
+{% endblock %}
